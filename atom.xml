@@ -17,8 +17,8 @@
   
   <entry>
     <title><![CDATA[Guia Homebrew]]></title>
-    <link href="http://yotacl.github.io/10/06/2014/Nuevo-post/"/>
-    <id>http://yotacl.github.io/10/06/2014/Nuevo-post/</id>
+    <link href="http://yotacl.github.io/06/2014/Nuevo-post/"/>
+    <id>http://yotacl.github.io/06/2014/Nuevo-post/</id>
     <published>2014-06-10T10:05:26.000Z</published>
     <updated>2015-06-10T22:32:38.000Z</updated>
     <content type="html"><![CDATA[<p><img src="http://blogs.alfresco.com/wp/developer/files/2012/12/homebrew.png" alt="Homebrew"></p>
@@ -75,8 +75,8 @@
   
   <entry>
     <title><![CDATA[Hello World]]></title>
-    <link href="http://yotacl.github.io/10/05/2014/hello-world/"/>
-    <id>http://yotacl.github.io/10/05/2014/hello-world/</id>
+    <link href="http://yotacl.github.io/05/2014/hello-world/"/>
+    <id>http://yotacl.github.io/05/2014/hello-world/</id>
     <published>2014-05-10T10:05:26.000Z</published>
     <updated>2015-06-10T22:55:23.000Z</updated>
     <content type="html"><![CDATA[<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">public class HolaMundo &#123;</span><br><span class="line">  	public static void main(String[] args) &#123;</span><br><span class="line">  		System.out.println(<span class="string">"Hola Mundo"</span>);</span><br><span class="line">  	&#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
