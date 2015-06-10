@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  
+  <title><![CDATA[Luis Fuentes]]></title>
+  
+  <link href="/atom.xml" rel="self"/>
+  <link href="http://localhost:4001//"/>
+  <updated>2015-06-10T22:32:38.000Z</updated>
+  <id>http://localhost:4001//</id>
+  
+  <author>
+    <name><![CDATA[Luis Fuentes]]></name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title><![CDATA[Guia Homebrew]]></title>
+    <link href="http://localhost:4001/10/06/2014/Nuevo-post/"/>
+    <id>http://localhost:4001/10/06/2014/Nuevo-post/</id>
+    <published>2014-06-10T10:05:26.000Z</published>
+    <updated>2015-06-10T22:32:38.000Z</updated>
+    <content type="html"><![CDATA[<p><img src="http://blogs.alfresco.com/wp/developer/files/2012/12/homebrew.png" alt="Homebrew"></p>
+<h3 id="¿Que_es_Homebrew?">¿Que es Homebrew?</h3><p><a href="http://brew.sh/" target="_blank" rel="external">Homebrew</a> es un gestor de paquetes esencial para OSX, desarrollado en ruby y para los que vienen de linux, funciona parecido a <code>apt-get</code> o <code>yum</code>.</p>
+<h3 id="Instalación">Instalación</h3><p>Como OSX ya tiene ruby instalado, solo debemos ejecutar en consola:</p>
+<pre><code>$ ruby <span class="operator">-e</span> <span class="string">"<span class="variable">$(curl -fsSL https://raw.github.com/Homebrew/homebrew/go/install)</span>"</span>
+</code></pre><p>Después de instalar se recomienda correr doctor para buscar algún inconveniente:</p>
+<pre><code>$ <span class="keyword">brew </span>doctor
+</code></pre><h3 id="¿Ahora?">¿Ahora?</h3><ul>
+<li><p>En homebrew a los paquetes se les denomina fórmulas, para instalar una solo debes ejecutar:</p>
+<pre><code>$ <span class="keyword">brew </span>install nombre_formula
+</code></pre></li>
+</ul>
+<ul>
+<li><p>Si quieres buscar una fórmula</p>
+<pre><code>$ <span class="keyword">brew </span>search nombre_formula
+</code></pre></li>
+</ul>
+<ul>
+<li><p>Para borrar una fórmula</p>
+<pre><code>$ <span class="keyword">brew </span>remove nombre_formula
+</code></pre></li>
+</ul>
+<ul>
+<li><p>¿Quieres actualizar una fórmula?</p>
+<pre><code>$ <span class="keyword">brew </span>upgrade nombre_formula
+</code></pre></li>
+</ul>
+<ul>
+<li><p>¿Quieres actualizar Homebrew?</p>
+<pre><code>$ <span class="keyword">brew </span>update
+</code></pre></li>
+</ul>
+<ul>
+<li><p>Para ver las fórmulas que tienes instaladas</p>
+<pre><code>$ brew <span class="type">list</span>
+</code></pre></li>
+</ul>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p><img src="http://blogs.alfresco.com/wp/developer/files/2012/12/homebrew.png" alt="Homebrew"></p>
+<h3 id="¿Que_es_Homebrew?">¿Que es Homeb]]>
+    </summary>
+    
+      <category term="Homebrew" scheme="http://localhost:4001/tags/Homebrew/"/>
+    
+      <category term="OS X" scheme="http://localhost:4001/tags/OS-X/"/>
+    
+      <category term="Software" scheme="http://localhost:4001/tags/Software/"/>
+    
+      <category term="Guias" scheme="http://localhost:4001/categories/Guias/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[Hello World]]></title>
+    <link href="http://localhost:4001/10/05/2014/hello-world/"/>
+    <id>http://localhost:4001/10/05/2014/hello-world/</id>
+    <published>2014-05-10T10:05:26.000Z</published>
+    <updated>2015-06-10T22:55:23.000Z</updated>
+    <content type="html"><![CDATA[<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">public class HolaMundo &#123;</span><br><span class="line">  	public static void main(String[] args) &#123;</span><br><span class="line">  		System.out.println(<span class="string">"Hola Mundo"</span>);</span><br><span class="line">  	&#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+]]></content>
+    <summary type="html">
+    <![CDATA[<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class=]]>
+    </summary>
+    
+  </entry>
+  
+</feed>
