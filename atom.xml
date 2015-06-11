@@ -5,7 +5,7 @@
   
   <link href="/atom.xml" rel="self"/>
   <link href="https://luisfuentes.me//"/>
-  <updated>2015-06-11T02:58:35.000Z</updated>
+  <updated>2015-06-11T06:01:32.000Z</updated>
   <id>https://luisfuentes.me//</id>
   
   <author>
@@ -20,14 +20,14 @@
     <link href="https://luisfuentes.me/07/2014/Guia-Yeoman/"/>
     <id>https://luisfuentes.me/07/2014/Guia-Yeoman/</id>
     <published>2014-07-04T01:36:01.000Z</published>
-    <updated>2015-06-11T02:58:35.000Z</updated>
-    <content type="html"><![CDATA[<h3 id="Introducción">Introducción</h3><p>El Workflow de <a href="http://yeoman.io/" target="_blank" rel="external">Yeoman</a>(YO) se compone de tres herramientas fundamentales para la mejora de la productividad y la satisfacción en la construcción de una aplicación web. Estas herramientas son:</p>
+    <updated>2015-06-11T06:01:32.000Z</updated>
+    <content type="html"><![CDATA[<h3 id="Introducción">Introducción</h3><p>El Workflow de <a href="https://yeoman.io/" target="_blank" rel="external">Yeoman</a>(YO) se compone de tres herramientas fundamentales para la mejora de la productividad y la satisfacción en la construcción de una aplicación web. Estas herramientas son:</p>
 <ul>
-<li><p><strong><a href="http://yeoman.io/" target="_blank" rel="external">YO</a></strong> - La herramienta de scaffolding de Yeoman.</p>
+<li><p><strong><a href="https://yeoman.io/" target="_blank" rel="external">YO</a></strong> - La herramienta de scaffolding de Yeoman.</p>
 </li>
-<li><p><strong><a href="http://bower.io/" target="_blank" rel="external">Bower</a></strong> - Es una herramienta de gestión de paquetes y dependencias, mantenida por twitter y una comunidad open-source. </p>
+<li><p><strong><a href="https://bower.io/" target="_blank" rel="external">Bower</a></strong> - Es una herramienta de gestión de paquetes y dependencias, mantenida por twitter y una comunidad open-source. </p>
 </li>
-<li><p><strong><a href="http://gruntjs.com/" target="_blank" rel="external">Grunt</a></strong> - Es un Task-Runer y sirve para automatizar tareas como compilar o testear.</p>
+<li><p><strong><a href="https://gruntjs.com/" target="_blank" rel="external">Grunt</a></strong> - Es un Task-Runer y sirve para automatizar tareas como compilar o testear.</p>
 </li>
 </ul>
 <p>Cada uno de estos proyectos se mantienen de forma independiente por sus respectivas comunidades, pero funcionan bien juntos, como parte de un flujo de trabajo prescriptivo para mantenerte eficaz.</p>
@@ -51,7 +51,7 @@
 <pre><code>$ npm <span class="keyword">install</span> -g yo
 </code></pre><p>Si usas una version de npm inferior a 1.2.10 debes instalar Bower y Grunt por separado:</p>
 <pre><code>$ npm install -<span class="keyword">g</span> grunt-<span class="keyword">cli</span> bower
-</code></pre><p>Los generadores oficiales los puedes encontrar en este <a href="http://yeoman.io/official-generators.html" target="_blank" rel="external">Link</a>. Y para instalarlos debes ejecutar:</p>
+</code></pre><p>Los generadores oficiales los puedes encontrar en este <a href="https://yeoman.io/generators/" target="_blank" rel="external">Link</a>. Y para instalarlos debes ejecutar:</p>
 <pre><code>$ npm <span class="keyword">install</span> -g nombre_generador
 </code></pre><p>Luego creas una carpeta para el proyecto y al interior ejecutas:</p>
 <pre><code>$ yo nombre_generador <span class="comment">--flags</span>
@@ -59,7 +59,7 @@
 <p><img src="../Guia-Yeoman/Yeoman-Banner.png" alt="Yeoman!"></p>
 ]]></content>
     <summary type="html">
-    <![CDATA[<h3 id="Introducción">Introducción</h3><p>El Workflow de <a href="http://yeoman.io/" target="_blank" rel="external">Yeoman</a>(YO) se compon]]>
+    <![CDATA[<h3 id="Introducción">Introducción</h3><p>El Workflow de <a href="https://yeoman.io/" target="_blank" rel="external">Yeoman</a>(YO) se compo]]>
     </summary>
     
       <category term="OS X" scheme="https://luisfuentes.me/tags/OS-X/"/>
@@ -75,9 +75,9 @@
     <link href="https://luisfuentes.me/06/2014/Guia-Homebrew/"/>
     <id>https://luisfuentes.me/06/2014/Guia-Homebrew/</id>
     <published>2014-06-10T10:05:26.000Z</published>
-    <updated>2015-06-11T03:49:13.000Z</updated>
+    <updated>2015-06-11T06:00:12.000Z</updated>
     <content type="html"><![CDATA[<p><img src="../Guia-Homebrew/homebrew.png" alt="Homebrew"></p>
-<h3 id="¿Que_es_Homebrew?">¿Que es Homebrew?</h3><p><a href="http://brew.sh/" target="_blank" rel="external">Homebrew</a> es un gestor de paquetes esencial para OSX, desarrollado en ruby y para los que vienen de linux, funciona parecido a <code>apt-get</code> o <code>yum</code>.</p>
+<h3 id="¿Que_es_Homebrew?">¿Que es Homebrew?</h3><p><a href="https://brew.sh/" target="_blank" rel="external">Homebrew</a> es un gestor de paquetes esencial para OSX, desarrollado en ruby y para los que vienen de linux, funciona parecido a <code>apt-get</code> o <code>yum</code>.</p>
 <h3 id="Instalación">Instalación</h3><p>Como OS X ya tiene ruby instalado, solo debemos ejecutar en consola:</p>
 <pre><code>$ ruby <span class="operator">-e</span> <span class="string">"<span class="variable">$(curl -fsSL https://raw.github.com/Homebrew/homebrew/go/install)</span>"</span>
 </code></pre><p>Después de instalar se recomienda correr doctor para buscar algún inconveniente:</p>
@@ -115,7 +115,7 @@
 ]]></content>
     <summary type="html">
     <![CDATA[<p><img src="../Guia-Homebrew/homebrew.png" alt="Homebrew"></p>
-<h3 id="¿Que_es_Homebrew?">¿Que es Homebrew?</h3><p><a href="http://brew.sh/]]>
+<h3 id="¿Que_es_Homebrew?">¿Que es Homebrew?</h3><p><a href="https://brew.sh]]>
     </summary>
     
       <category term="Homebrew" scheme="https://luisfuentes.me/tags/Homebrew/"/>
