@@ -75,9 +75,9 @@
     <link href="https://luisfuentes.me/06/2014/Guia-Homebrew/"/>
     <id>https://luisfuentes.me/06/2014/Guia-Homebrew/</id>
     <published>2014-06-10T10:05:26.000Z</published>
-    <updated>2015-06-11T06:22:30.000Z</updated>
+    <updated>2015-06-11T06:44:23.000Z</updated>
     <content type="html"><![CDATA[<p><img src="../Guia-Homebrew/homebrew.png" alt="Homebrew"></p>
-<h3 id="¿Que_es_Homebrew?">¿Que es Homebrew?</h3><p><a href="https://brew.sh/" target="_blank" rel="external">Homebrew</a> es un gestor de paquetes esencial para OSX, desarrollado en ruby y para los que vienen de linux, funciona parecido a <code>apt-get</code> o <code>yum</code>.</p>
+<h3 id="¿Que_es_Homebrew?">¿Que es Homebrew?</h3><p><a href="http://brew.sh/" target="_blank" rel="external">Homebrew</a> es un gestor de paquetes esencial para OSX, desarrollado en ruby y para los que vienen de linux, funciona parecido a <code>apt-get</code> o <code>yum</code>.</p>
 <h3 id="Instalación">Instalación</h3><p>Como OS X ya tiene ruby instalado, solo debemos ejecutar en consola:</p>
 <pre><code>$ ruby <span class="operator">-e</span> <span class="string">"<span class="variable">$(curl -fsSL https://raw.github.com/Homebrew/homebrew/go/install)</span>"</span>
 </code></pre><p>Después de instalar se recomienda correr doctor para buscar algún inconveniente:</p>
@@ -115,7 +115,7 @@
 ]]></content>
     <summary type="html">
     <![CDATA[<p><img src="../Guia-Homebrew/homebrew.png" alt="Homebrew"></p>
-<h3 id="¿Que_es_Homebrew?">¿Que es Homebrew?</h3><p><a href="https://brew.sh]]>
+<h3 id="¿Que_es_Homebrew?">¿Que es Homebrew?</h3><p><a href="http://brew.sh/]]>
     </summary>
     
       <category term="Homebrew" scheme="https://luisfuentes.me/tags/Homebrew/"/>
