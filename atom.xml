@@ -4,9 +4,9 @@
   <title><![CDATA[Luis Fuentes]]></title>
   
   <link href="/atom.xml" rel="self"/>
-  <link href="http://yotacl.github.io//"/>
+  <link href="https://luisfuentes.me//"/>
   <updated>2015-06-11T02:58:35.000Z</updated>
-  <id>http://yotacl.github.io//</id>
+  <id>https://luisfuentes.me//</id>
   
   <author>
     <name><![CDATA[Luis Fuentes]]></name>
@@ -17,8 +17,8 @@
   
   <entry>
     <title><![CDATA[Guia Yeoman]]></title>
-    <link href="http://yotacl.github.io/07/2014/Guia-Yeoman/"/>
-    <id>http://yotacl.github.io/07/2014/Guia-Yeoman/</id>
+    <link href="https://luisfuentes.me/07/2014/Guia-Yeoman/"/>
+    <id>https://luisfuentes.me/07/2014/Guia-Yeoman/</id>
     <published>2014-07-04T01:36:01.000Z</published>
     <updated>2015-06-11T02:58:35.000Z</updated>
     <content type="html"><![CDATA[<h3 id="Introducción">Introducción</h3><p>El Workflow de <a href="http://yeoman.io/" target="_blank" rel="external">Yeoman</a>(YO) se compone de tres herramientas fundamentales para la mejora de la productividad y la satisfacción en la construcción de una aplicación web. Estas herramientas son:</p>
@@ -62,18 +62,18 @@
     <![CDATA[<h3 id="Introducción">Introducción</h3><p>El Workflow de <a href="http://yeoman.io/" target="_blank" rel="external">Yeoman</a>(YO) se compon]]>
     </summary>
     
-      <category term="OS X" scheme="http://yotacl.github.io/tags/OS-X/"/>
+      <category term="OS X" scheme="https://luisfuentes.me/tags/OS-X/"/>
     
-      <category term="Yeoman" scheme="http://yotacl.github.io/tags/Yeoman/"/>
+      <category term="Yeoman" scheme="https://luisfuentes.me/tags/Yeoman/"/>
     
-      <category term="Software" scheme="http://yotacl.github.io/categories/Software/"/>
+      <category term="Software" scheme="https://luisfuentes.me/categories/Software/"/>
     
   </entry>
   
   <entry>
     <title><![CDATA[Guia Homebrew]]></title>
-    <link href="http://yotacl.github.io/06/2014/Guia-Homebrew/"/>
-    <id>http://yotacl.github.io/06/2014/Guia-Homebrew/</id>
+    <link href="https://luisfuentes.me/06/2014/Guia-Homebrew/"/>
+    <id>https://luisfuentes.me/06/2014/Guia-Homebrew/</id>
     <published>2014-06-10T10:05:26.000Z</published>
     <updated>2015-06-11T03:49:13.000Z</updated>
     <content type="html"><![CDATA[<p><img src="../Guia-Homebrew/homebrew.png" alt="Homebrew"></p>
@@ -118,18 +118,18 @@
 <h3 id="¿Que_es_Homebrew?">¿Que es Homebrew?</h3><p><a href="http://brew.sh/]]>
     </summary>
     
-      <category term="Homebrew" scheme="http://yotacl.github.io/tags/Homebrew/"/>
+      <category term="Homebrew" scheme="https://luisfuentes.me/tags/Homebrew/"/>
     
-      <category term="OS X" scheme="http://yotacl.github.io/tags/OS-X/"/>
+      <category term="OS X" scheme="https://luisfuentes.me/tags/OS-X/"/>
     
-      <category term="Software" scheme="http://yotacl.github.io/categories/Software/"/>
+      <category term="Software" scheme="https://luisfuentes.me/categories/Software/"/>
     
   </entry>
   
   <entry>
     <title><![CDATA[Hello World]]></title>
-    <link href="http://yotacl.github.io/05/2014/hello-world/"/>
-    <id>http://yotacl.github.io/05/2014/hello-world/</id>
+    <link href="https://luisfuentes.me/05/2014/hello-world/"/>
+    <id>https://luisfuentes.me/05/2014/hello-world/</id>
     <published>2014-05-10T10:05:26.000Z</published>
     <updated>2015-06-11T00:10:39.000Z</updated>
     <content type="html"><![CDATA[<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">public class HolaMundo &#123;</span><br><span class="line">  	public static void main(String[] args) &#123;</span><br><span class="line">  		System.out.println(<span class="string">"Hola Mundo"</span>);</span><br><span class="line">  	&#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
