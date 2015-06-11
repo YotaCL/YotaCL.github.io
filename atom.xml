@@ -5,7 +5,7 @@
   
   <link href="/atom.xml" rel="self"/>
   <link href="https://luisfuentes.me//"/>
-  <updated>2015-06-11T06:07:21.000Z</updated>
+  <updated>2015-06-11T06:22:37.000Z</updated>
   <id>https://luisfuentes.me//</id>
   
   <author>
@@ -20,7 +20,7 @@
     <link href="https://luisfuentes.me/07/2014/Guia-Yeoman/"/>
     <id>https://luisfuentes.me/07/2014/Guia-Yeoman/</id>
     <published>2014-07-04T01:36:01.000Z</published>
-    <updated>2015-06-11T06:07:21.000Z</updated>
+    <updated>2015-06-11T06:22:37.000Z</updated>
     <content type="html"><![CDATA[<h3 id="Introducción">Introducción</h3><p>El Workflow de <a href="https://yeoman.io/" target="_blank" rel="external">Yeoman</a>(YO) se compone de tres herramientas fundamentales para la mejora de la productividad y la satisfacción en la construcción de una aplicación web. Estas herramientas son:</p>
 <ul>
 <li><p><strong><a href="https://yeoman.io/" target="_blank" rel="external">YO</a></strong> - La herramienta de scaffolding de Yeoman.</p>
@@ -62,7 +62,7 @@
     <![CDATA[<h3 id="Introducción">Introducción</h3><p>El Workflow de <a href="https://yeoman.io/" target="_blank" rel="external">Yeoman</a>(YO) se compo]]>
     </summary>
     
-      <category term="OS X" scheme="https://luisfuentes.me/tags/OS-X/"/>
+      <category term="OSX" scheme="https://luisfuentes.me/tags/OSX/"/>
     
       <category term="Yeoman" scheme="https://luisfuentes.me/tags/Yeoman/"/>
     
@@ -75,7 +75,7 @@
     <link href="https://luisfuentes.me/06/2014/Guia-Homebrew/"/>
     <id>https://luisfuentes.me/06/2014/Guia-Homebrew/</id>
     <published>2014-06-10T10:05:26.000Z</published>
-    <updated>2015-06-11T06:00:12.000Z</updated>
+    <updated>2015-06-11T06:22:30.000Z</updated>
     <content type="html"><![CDATA[<p><img src="../Guia-Homebrew/homebrew.png" alt="Homebrew"></p>
 <h3 id="¿Que_es_Homebrew?">¿Que es Homebrew?</h3><p><a href="https://brew.sh/" target="_blank" rel="external">Homebrew</a> es un gestor de paquetes esencial para OSX, desarrollado en ruby y para los que vienen de linux, funciona parecido a <code>apt-get</code> o <code>yum</code>.</p>
 <h3 id="Instalación">Instalación</h3><p>Como OS X ya tiene ruby instalado, solo debemos ejecutar en consola:</p>
@@ -120,7 +120,7 @@
     
       <category term="Homebrew" scheme="https://luisfuentes.me/tags/Homebrew/"/>
     
-      <category term="OS X" scheme="https://luisfuentes.me/tags/OS-X/"/>
+      <category term="OSX" scheme="https://luisfuentes.me/tags/OSX/"/>
     
       <category term="Software" scheme="https://luisfuentes.me/categories/Software/"/>
     
