@@ -116,11 +116,11 @@ a:hover,
 a:active,
 a:visited {
   cursor: pointer;
-  color: #64b5f6;
+  color: #16a085;
   text-decoration: none; }
 
 a:hover {
-  color: #64b5f6;
+  color: #16a085;
   text-decoration: underline; }
 
 table {
@@ -568,8 +568,8 @@ blockquote {
     border: 1px solid #309639; }
 
 .btn--primary {
-  color: #64b5f6 !important;
-  border: 1px solid #64b5f6; }
+  color: #16a085 !important;
+  border: 1px solid #16a085; }
   .btn--primary:hover {
     color: #1c92f2 !important;
     border: 1px solid #1c92f2; }
@@ -628,8 +628,8 @@ a.category--success,
 
 a.category--primary,
 .category--primary {
-  color: #64b5f6 !important;
-  border: 1px solid #64b5f6; }
+  color: #16a085 !important;
+  border: 1px solid #16a085; }
   a.category--primary:hover,
   .category--primary:hover {
     color: #1c92f2 !important;
@@ -1447,8 +1447,8 @@ a.tag--success,
 
 a.tag--primary,
 .tag--primary {
-  color: #64b5f6 !important;
-  border: 1px solid #64b5f6; }
+  color: #16a085 !important;
+  border: 1px solid #16a085; }
   a.tag--primary:hover,
   .tag--primary:hover {
     color: #1c92f2 !important;
@@ -1542,7 +1542,7 @@ a.tag--small,
   color: #9eabb3 !important; }
 
 .text-color-link {
-  color: #64b5f6 !important; }
+  color: #16a085 !important; }
 
 .tooltip, [data-tooltip] {
   position: relative;
