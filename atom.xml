@@ -5,7 +5,7 @@
   
   <link href="/atom.xml" rel="self"/>
   <link href="http://yotacl.github.io//"/>
-  <updated>2015-06-11T02:14:12.000Z</updated>
+  <updated>2015-06-11T02:16:44.000Z</updated>
   <id>http://yotacl.github.io//</id>
   
   <author>
@@ -20,7 +20,7 @@
     <link href="http://yotacl.github.io/07/2014/Guia-Yeoman/"/>
     <id>http://yotacl.github.io/07/2014/Guia-Yeoman/</id>
     <published>2014-07-04T01:36:01.000Z</published>
-    <updated>2015-06-11T02:14:12.000Z</updated>
+    <updated>2015-06-11T02:16:44.000Z</updated>
     <content type="html"><![CDATA[<h3 id="Introducción">Introducción</h3><p>El Workflow de <a href="http://yeoman.io/" target="_blank" rel="external">Yeoman</a>(YO) se compone de tres herramientas fundamentales para la mejora de la productividad y la satisfacción en la construcción de una aplicación web. Estas herramientas son:</p>
 <ul>
 <li><p><strong>YO</strong> - La herramienta de scaffolding de Yeoman.</p>
@@ -31,7 +31,7 @@
 </li>
 </ul>
 <p>Cada uno de estos proyectos se mantienen de forma independiente por sus respectivas comunidades, pero funcionan bien juntos como parte de un flujo de trabajo prescriptivo para mantenerte eficaz.</p>
-<p><a href="../Guia-Yeoman/img/image-1.jpg">Como funciona</a></p>
+<p><img src="../Guia-Yeoman/Yeoman-Workflow.jpg" alt="Como funciona"></p>
 <p>A través de estas herramientas podras:</p>
 <ul>
 <li><p>Crear el esqueleto de tu app muy rapido y podras elegir entre cientos de plantillas o generadores como <em>HTML5, Boilerplate, Bootstrap, MEAN, Angular, etc…</em></p>
