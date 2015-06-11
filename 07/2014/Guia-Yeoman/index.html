@@ -5,7 +5,7 @@
     <meta http-equiv="Content-Type" content="text/html" charset="UTF-8" >
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="generator" content="Luis Fuentes">
-    <title>Guia Homebrew - Luis Fuentes</title>
+    <title>Guia Yeoman - Luis Fuentes</title>
     <meta name="author" content="Luis Fuentes">
     <meta name="description" content="Luis Fuentes">
     <link rel="icon" href="/assets/images/null">
@@ -146,11 +146,11 @@
     
         <div class="post-header main-content-wrap">
     
-        <h1 class="post-title" itemprop="headline">Guia Homebrew</h1>
+        <h1 class="post-title" itemprop="headline">Guia Yeoman</h1>
     
     <div class="post-meta">
-    <time  itemprop="datePublished" content="Tue Jun 10 2014 07:05:26 GMT-0300">
-        Jun 10, 2014
+    <time  itemprop="datePublished" content="Thu Jul 03 2014 22:36:01 GMT-0300">
+        Jul 03, 2014
     </time>
     
         <span>in </span>
@@ -163,42 +163,42 @@
 </div>
     
     <div class="post-content markdown main-content-wrap" itemprop="articleBody">
-        <p><img src="http://blogs.alfresco.com/wp/developer/files/2012/12/homebrew.png" alt="Homebrew"></p>
-<h3 id="¿Que_es_Homebrew?">¿Que es Homebrew?</h3><p><a href="http://brew.sh/" target="_blank" rel="external">Homebrew</a> es un gestor de paquetes esencial para OSX, desarrollado en ruby y para los que vienen de linux, funciona parecido a <code>apt-get</code> o <code>yum</code>.</p>
-<h3 id="Instalación">Instalación</h3><p>Como OSX ya tiene ruby instalado, solo debemos ejecutar en consola:</p>
-<pre><code>$ ruby <span class="operator">-e</span> <span class="string">"<span class="variable">$(curl -fsSL https://raw.github.com/Homebrew/homebrew/go/install)</span>"</span>
-</code></pre><p>Después de instalar se recomienda correr doctor para buscar algún inconveniente:</p>
-<pre><code>$ <span class="keyword">brew </span>doctor
-</code></pre><h3 id="¿Ahora?">¿Ahora?</h3><ul>
-<li><p>En homebrew a los paquetes se les denomina fórmulas, para instalar una solo debes ejecutar:</p>
-<pre><code>$ <span class="keyword">brew </span>install nombre_formula
-</code></pre></li>
-</ul>
+        <h3 id="Introducción">Introducción</h3><p>El Workflow de <a href="http://yeoman.io/" target="_blank" rel="external">Yeoman</a>(YO) se compone de tres herramientas fundamentales para la mejora de la productividad y la satisfacción en la construcción de una aplicación web. Estas herramientas son:</p>
 <ul>
-<li><p>Si quieres buscar una fórmula</p>
-<pre><code>$ <span class="keyword">brew </span>search nombre_formula
-</code></pre></li>
+<li><p><strong>YO</strong> - La herramienta de scaffolding de Yeoman.</p>
+</li>
+<li><p><strong>Bower</strong> - Es una herramienta de gestión de paquetes y dependencias, mantenida por twitter y una comunidad open-source.</p>
+</li>
+<li><p><strong>Grunt</strong> - Es un Task-Runer y sirve para automatizar tareas como compilar o testear.</p>
+</li>
 </ul>
+<p>Cada uno de estos proyectos se mantienen de forma independiente por sus respectivas comunidades, pero funcionan bien juntos como parte de un flujo de trabajo prescriptivo para mantenerte eficaz.</p>
+<p><img src="../img/image-1.jpg" alt="Como funciona"></p>
+<p>A través de estas herramientas podras:</p>
 <ul>
-<li><p>Para borrar una fórmula</p>
-<pre><code>$ <span class="keyword">brew </span>remove nombre_formula
-</code></pre></li>
+<li><p>Crear el esqueleto de tu app muy rapido y podras elegir entre cientos de plantillas o generadores como <em>HTML5, Boilerplate, Bootstrap, MEAN, Angular, etc…</em></p>
+</li>
+<li><p>Compila automáticamente <em>Coffeescript</em> y <em>Compass</em>, ademas refresca automáticamente los cambios en el navegador gracias a <em>LiveReload</em> (Chao refresh (╯°□°）╯︵ ┻━┻).</p>
+</li>
+<li><p>Compara tus scripts con <em>JSHint</em> para comprobar el uso de buenas prácticas.</p>
+</li>
+<li><p>Puede optimizar tus imágenes con <em>OptiPNG</em> y <em>JPGTran</em>.</p>
+</li>
+<li><p>Sistema de control de paquetes!</p>
+</li>
+<li><p>Te lanza un servidor propio, entorno de pruebas y mucho más!!</p>
+</li>
 </ul>
-<ul>
-<li><p>¿Quieres actualizar una fórmula?</p>
-<pre><code>$ <span class="keyword">brew </span>upgrade nombre_formula
-</code></pre></li>
-</ul>
-<ul>
-<li><p>¿Quieres actualizar Homebrew?</p>
-<pre><code>$ <span class="keyword">brew </span>update
-</code></pre></li>
-</ul>
-<ul>
-<li><p>Para ver las fórmulas que tienes instaladas</p>
-<pre><code>$ brew <span class="type">list</span>
-</code></pre></li>
-</ul>
+<h3 id="Instalación">Instalación</h3><p>Yeoman(YO) es mantenido por el proyecto Yeoman y sirve para generar el scaffolding de aplicaciones web, utilizando plantillas de scaffolding que se llaman generadores. Normalmente se instala YO y luego el generador que necesites a través de npm.</p>
+<pre><code>$ npm <span class="keyword">install</span> -g yo
+</code></pre><p>Si usas una version de npm inferior a 1.2.10 debes instalar Bower y Grunt por separado:</p>
+<pre><code>$ npm install -<span class="keyword">g</span> grunt-<span class="keyword">cli</span> bower
+</code></pre><p>Los generadores oficiales los puedes encontrar en este <a href="http://yeoman.io/official-generators.html" target="_blank" rel="external">Link</a>. Y para instalarlos debes ejecutar:</p>
+<pre><code>$ npm <span class="keyword">install</span> -g nombre_generador
+</code></pre><p>Luego creas una carpeta para el proyecto y al interior ejecutas:</p>
+<pre><code>$ yo nombre_generador <span class="comment">--flags</span>
+</code></pre><p><em>Nota: Las flags son opcionales y dependen del generador.</em></p>
+<p><img src="http://yeoman.io/assets/img/yeoman-horizontal.b2ee.gif" alt="Yeoman!"></p>
 
         
             
@@ -209,7 +209,7 @@
             <div class="post-footer-tags">
                 <span class="text-color-light text-small">TAGGED IN</span><br/>
                 
-    <a class="tag tag--primary tag--small t-link" href="/tags/Homebrew/">Homebrew</a> <a class="tag tag--primary tag--small t-link" href="/tags/OS-X/">OS X</a> <a class="tag tag--primary tag--small t-link" href="/tags/Software/">Software</a>
+    <a class="tag tag--primary tag--small t-link" href="/tags/OS-X/">OS X</a> <a class="tag tag--primary tag--small t-link" href="/tags/Software/">Software</a> <a class="tag tag--primary tag--small t-link" href="/tags/Yeoman/">Yeoman</a>
 
             </div>
         
@@ -218,7 +218,7 @@
         <ul class="post-actions post-action-nav">
             <li class="post-action">
                 
-                    <a class="post-action-btn btn btn--default tooltip--top" href="/07/2014/Guia-Yeoman/"  data-tooltip="Guia Yeoman">
+                    <a class="post-action-btn btn btn--disabled">
                 
                     <i class="fa fa-angle-left"></i>
                     <span class="hide-xs hide-sm text-small icon-ml">PREVIOUS</span>
@@ -226,7 +226,7 @@
             </li>
             <li class="post-action">
                 
-                    <a class="post-action-btn btn btn--default tooltip--top" href="/05/2014/hello-world/" data-tooltip="Hello World">
+                    <a class="post-action-btn btn btn--default tooltip--top" href="/06/2014/Guia-Homebrew/" data-tooltip="Guia Homebrew">
                 
                     <span class="hide-xs hide-sm text-small icon-mr">NEXT</span>
                     <i class="fa fa-angle-right"></i>
@@ -236,17 +236,17 @@
     </nav>
     <ul class="post-actions post-action-share">
         <li class="post-action">
-            <a class="post-action-btn btn btn--default" target="new" href="https://plus.google.com/share?url=http://yotacl.github.io/06/2014/Guia-Homebrew/">
+            <a class="post-action-btn btn btn--default" target="new" href="https://plus.google.com/share?url=http://yotacl.github.io/07/2014/Guia-Yeoman/">
                 <i class="fa fa-google-plus"></i>
             </a>
         </li>
         <li class="post-action">
-            <a class="post-action-btn btn btn--default" target="new" href="https://www.facebook.com/sharer/sharer.php?u=http://yotacl.github.io/06/2014/Guia-Homebrew/">
+            <a class="post-action-btn btn btn--default" target="new" href="https://www.facebook.com/sharer/sharer.php?u=http://yotacl.github.io/07/2014/Guia-Yeoman/">
                 <i class="fa fa-facebook-official"></i>
             </a>
         </li>
         <li class="post-action">
-            <a class="post-action-btn btn btn--default" target="new" href="https://twitter.com/intent/tweet?text=http://yotacl.github.io/06/2014/Guia-Homebrew/">
+            <a class="post-action-btn btn btn--default" target="new" href="https://twitter.com/intent/tweet?text=http://yotacl.github.io/07/2014/Guia-Yeoman/">
                 <i class="fa fa-twitter"></i>
             </a>
         </li>
@@ -285,7 +285,7 @@
         <ul class="post-actions post-action-nav">
             <li class="post-action">
                 
-                    <a class="post-action-btn btn btn--default tooltip--top" href="/07/2014/Guia-Yeoman/"  data-tooltip="Guia Yeoman">
+                    <a class="post-action-btn btn btn--disabled">
                 
                     <i class="fa fa-angle-left"></i>
                     <span class="hide-xs hide-sm text-small icon-ml">PREVIOUS</span>
@@ -293,7 +293,7 @@
             </li>
             <li class="post-action">
                 
-                    <a class="post-action-btn btn btn--default tooltip--top" href="/05/2014/hello-world/" data-tooltip="Hello World">
+                    <a class="post-action-btn btn btn--default tooltip--top" href="/06/2014/Guia-Homebrew/" data-tooltip="Guia Homebrew">
                 
                     <span class="hide-xs hide-sm text-small icon-mr">NEXT</span>
                     <i class="fa fa-angle-right"></i>
@@ -303,17 +303,17 @@
     </nav>
     <ul class="post-actions post-action-share">
         <li class="post-action">
-            <a class="post-action-btn btn btn--default" target="new" href="https://plus.google.com/share?url=http://yotacl.github.io/06/2014/Guia-Homebrew/">
+            <a class="post-action-btn btn btn--default" target="new" href="https://plus.google.com/share?url=http://yotacl.github.io/07/2014/Guia-Yeoman/">
                 <i class="fa fa-google-plus"></i>
             </a>
         </li>
         <li class="post-action">
-            <a class="post-action-btn btn btn--default" target="new" href="https://www.facebook.com/sharer/sharer.php?u=http://yotacl.github.io/06/2014/Guia-Homebrew/">
+            <a class="post-action-btn btn btn--default" target="new" href="https://www.facebook.com/sharer/sharer.php?u=http://yotacl.github.io/07/2014/Guia-Yeoman/">
                 <i class="fa fa-facebook-official"></i>
             </a>
         </li>
         <li class="post-action">
-            <a class="post-action-btn btn btn--default" target="new" href="https://twitter.com/intent/tweet?text=http://yotacl.github.io/06/2014/Guia-Homebrew/">
+            <a class="post-action-btn btn btn--default" target="new" href="https://twitter.com/intent/tweet?text=http://yotacl.github.io/07/2014/Guia-Yeoman/">
                 <i class="fa fa-twitter"></i>
             </a>
         </li>
