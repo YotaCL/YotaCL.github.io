@@ -2360,7 +2360,7 @@ blockquote {
       color: #9eabb3;
       cursor: pointer; }
       #about #about-card #about-btn-close:hover {
-        color: #738691; }
+        color: #106C5A; }
     #about #about-card #about-card-picture {
       margin-bottom: 15px; }
     #about #about-card #about-card-name {
@@ -2688,8 +2688,8 @@ blockquote {
   color: #9eabb3 !important;
   border: 1px solid #9eabb3; }
   .btn--default:hover {
-    color: #738691 !important;
-    border: 1px solid #738691; }
+    color: #106C5A !important;
+    border: 1px solid #106C5A; }
 
 .btn--success {
   color: #4dc657 !important;
@@ -2743,8 +2743,8 @@ a.category--default,
   border: 1px solid #9eabb3; }
   a.category--default:hover,
   .category--default:hover {
-    color: #738691 !important;
-    border: 1px solid #738691;
+    color: #106C5A !important;
+    border: 1px solid #106C5A;
     text-decoration: none; }
 
 a.category--success,
@@ -3562,8 +3562,8 @@ a.tag--default,
   border: 1px solid #9eabb3; }
   a.tag--default:hover,
   .tag--default:hover {
-    color: #738691 !important;
-    border: 1px solid #738691;
+    color: #106C5A !important;
+    border: 1px solid #106C5A;
     text-decoration: none; }
 
 a.tag--success,
