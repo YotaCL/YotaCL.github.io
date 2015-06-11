@@ -571,8 +571,8 @@ blockquote {
   color: #16a085 !important;
   border: 1px solid #16a085; }
   .btn--primary:hover {
-    color: #1c92f2 !important;
-    border: 1px solid #1c92f2; }
+    color: #106C5A !important;
+    border: 1px solid #106C5A; }
 
 .btn--danger {
   color: #f5311d !important;
@@ -632,8 +632,8 @@ a.category--primary,
   border: 1px solid #16a085; }
   a.category--primary:hover,
   .category--primary:hover {
-    color: #1c92f2 !important;
-    border: 1px solid #1c92f2;
+    color: #106C5A !important;
+    border: 1px solid #106C5A;
     text-decoration: none; }
 
 a.category--danger,
@@ -1451,8 +1451,8 @@ a.tag--primary,
   border: 1px solid #16a085; }
   a.tag--primary:hover,
   .tag--primary:hover {
-    color: #1c92f2 !important;
-    border: 1px solid #1c92f2;
+    color: #106C5A !important;
+    border: 1px solid #106C5A;
     text-decoration: none; }
 
 a.tag--danger,
