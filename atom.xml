@@ -4,9 +4,9 @@
   <title><![CDATA[Luis Fuentes]]></title>
   
   <link href="/atom.xml" rel="self"/>
-  <link href="http://yotacl.github.io//"/>
-  <updated>2015-06-11T02:26:26.000Z</updated>
-  <id>http://yotacl.github.io//</id>
+  <link href="http://localhost:4001//"/>
+  <updated>2015-06-11T02:58:35.000Z</updated>
+  <id>http://localhost:4001//</id>
   
   <author>
     <name><![CDATA[Luis Fuentes]]></name>
@@ -17,17 +17,17 @@
   
   <entry>
     <title><![CDATA[Guia Yeoman]]></title>
-    <link href="http://yotacl.github.io/07/2014/Guia-Yeoman/"/>
-    <id>http://yotacl.github.io/07/2014/Guia-Yeoman/</id>
+    <link href="http://localhost:4001/07/2014/Guia-Yeoman/"/>
+    <id>http://localhost:4001/07/2014/Guia-Yeoman/</id>
     <published>2014-07-04T01:36:01.000Z</published>
-    <updated>2015-06-11T02:26:26.000Z</updated>
+    <updated>2015-06-11T02:58:35.000Z</updated>
     <content type="html"><![CDATA[<h3 id="Introducción">Introducción</h3><p>El Workflow de <a href="http://yeoman.io/" target="_blank" rel="external">Yeoman</a>(YO) se compone de tres herramientas fundamentales para la mejora de la productividad y la satisfacción en la construcción de una aplicación web. Estas herramientas son:</p>
 <ul>
-<li><p><strong>YO</strong> - La herramienta de scaffolding de Yeoman.</p>
+<li><p><strong><a href="http://yeoman.io/" target="_blank" rel="external">YO</a></strong> - La herramienta de scaffolding de Yeoman.</p>
 </li>
-<li><p><strong>Bower</strong> - Es una herramienta de gestión de paquetes y dependencias, mantenida por twitter y una comunidad open-source.</p>
+<li><p><strong><a href="http://bower.io/" target="_blank" rel="external">Bower</a></strong> - Es una herramienta de gestión de paquetes y dependencias, mantenida por twitter y una comunidad open-source. </p>
 </li>
-<li><p><strong>Grunt</strong> - Es un Task-Runer y sirve para automatizar tareas como compilar o testear.</p>
+<li><p><strong><a href="http://gruntjs.com/" target="_blank" rel="external">Grunt</a></strong> - Es un Task-Runer y sirve para automatizar tareas como compilar o testear.</p>
 </li>
 </ul>
 <p>Cada uno de estos proyectos se mantienen de forma independiente por sus respectivas comunidades, pero funcionan bien juntos, como parte de un flujo de trabajo prescriptivo para mantenerte eficaz.</p>
@@ -56,31 +56,29 @@
 </code></pre><p>Luego creas una carpeta para el proyecto y al interior ejecutas:</p>
 <pre><code>$ yo nombre_generador <span class="comment">--flags</span>
 </code></pre><p><em>Nota: Las flags son opcionales y dependen del generador.</em></p>
-<p><img src="http://yeoman.io/assets/img/yeoman-horizontal.b2ee.gif" alt="Yeoman!"></p>
+<p><img src="../Guia-Yeoman/Yeoman-Banner.png" alt="Yeoman!"></p>
 ]]></content>
     <summary type="html">
     <![CDATA[<h3 id="Introducción">Introducción</h3><p>El Workflow de <a href="http://yeoman.io/" target="_blank" rel="external">Yeoman</a>(YO) se compon]]>
     </summary>
     
-      <category term="OS X" scheme="http://yotacl.github.io/tags/OS-X/"/>
+      <category term="OS X" scheme="http://localhost:4001/tags/OS-X/"/>
     
-      <category term="Software" scheme="http://yotacl.github.io/tags/Software/"/>
+      <category term="Yeoman" scheme="http://localhost:4001/tags/Yeoman/"/>
     
-      <category term="Yeoman" scheme="http://yotacl.github.io/tags/Yeoman/"/>
-    
-      <category term="Guias" scheme="http://yotacl.github.io/categories/Guias/"/>
+      <category term="Software" scheme="http://localhost:4001/categories/Software/"/>
     
   </entry>
   
   <entry>
     <title><![CDATA[Guia Homebrew]]></title>
-    <link href="http://yotacl.github.io/06/2014/Guia-Homebrew/"/>
-    <id>http://yotacl.github.io/06/2014/Guia-Homebrew/</id>
+    <link href="http://localhost:4001/06/2014/Guia-Homebrew/"/>
+    <id>http://localhost:4001/06/2014/Guia-Homebrew/</id>
     <published>2014-06-10T10:05:26.000Z</published>
-    <updated>2015-06-11T01:48:17.000Z</updated>
-    <content type="html"><![CDATA[<p><img src="http://blogs.alfresco.com/wp/developer/files/2012/12/homebrew.png" alt="Homebrew"></p>
+    <updated>2015-06-11T03:49:13.000Z</updated>
+    <content type="html"><![CDATA[<p><img src="../Guia-Homebrew/homebrew.png" alt="Homebrew"></p>
 <h3 id="¿Que_es_Homebrew?">¿Que es Homebrew?</h3><p><a href="http://brew.sh/" target="_blank" rel="external">Homebrew</a> es un gestor de paquetes esencial para OSX, desarrollado en ruby y para los que vienen de linux, funciona parecido a <code>apt-get</code> o <code>yum</code>.</p>
-<h3 id="Instalación">Instalación</h3><p>Como OSX ya tiene ruby instalado, solo debemos ejecutar en consola:</p>
+<h3 id="Instalación">Instalación</h3><p>Como OS X ya tiene ruby instalado, solo debemos ejecutar en consola:</p>
 <pre><code>$ ruby <span class="operator">-e</span> <span class="string">"<span class="variable">$(curl -fsSL https://raw.github.com/Homebrew/homebrew/go/install)</span>"</span>
 </code></pre><p>Después de instalar se recomienda correr doctor para buscar algún inconveniente:</p>
 <pre><code>$ <span class="keyword">brew </span>doctor
@@ -116,24 +114,22 @@
 </ul>
 ]]></content>
     <summary type="html">
-    <![CDATA[<p><img src="http://blogs.alfresco.com/wp/developer/files/2012/12/homebrew.png" alt="Homebrew"></p>
-<h3 id="¿Que_es_Homebrew?">¿Que es Homeb]]>
+    <![CDATA[<p><img src="../Guia-Homebrew/homebrew.png" alt="Homebrew"></p>
+<h3 id="¿Que_es_Homebrew?">¿Que es Homebrew?</h3><p><a href="http://brew.sh/]]>
     </summary>
     
-      <category term="Homebrew" scheme="http://yotacl.github.io/tags/Homebrew/"/>
+      <category term="Homebrew" scheme="http://localhost:4001/tags/Homebrew/"/>
     
-      <category term="OS X" scheme="http://yotacl.github.io/tags/OS-X/"/>
+      <category term="OS X" scheme="http://localhost:4001/tags/OS-X/"/>
     
-      <category term="Software" scheme="http://yotacl.github.io/tags/Software/"/>
-    
-      <category term="Guias" scheme="http://yotacl.github.io/categories/Guias/"/>
+      <category term="Software" scheme="http://localhost:4001/categories/Software/"/>
     
   </entry>
   
   <entry>
     <title><![CDATA[Hello World]]></title>
-    <link href="http://yotacl.github.io/05/2014/hello-world/"/>
-    <id>http://yotacl.github.io/05/2014/hello-world/</id>
+    <link href="http://localhost:4001/05/2014/hello-world/"/>
+    <id>http://localhost:4001/05/2014/hello-world/</id>
     <published>2014-05-10T10:05:26.000Z</published>
     <updated>2015-06-11T00:10:39.000Z</updated>
     <content type="html"><![CDATA[<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">public class HolaMundo &#123;</span><br><span class="line">  	public static void main(String[] args) &#123;</span><br><span class="line">  		System.out.println(<span class="string">"Hola Mundo"</span>);</span><br><span class="line">  	&#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
